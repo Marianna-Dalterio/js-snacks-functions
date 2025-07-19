@@ -4,9 +4,12 @@ const userName = 'Mario';
 
 
 // Dichiara la funzione qui.
-function helloName(userName) {
-    return `Ciao ${userName}`
-}
+// function helloName(userName) {
+//     return `Ciao ${userName}`
+// }
+
+//ARROW FUNCTION
+const helloName = (userName) => `Ciao ${userName}`
 
 // Invoca la funzione qui e stampa il risultato in console
 console.log(helloName(userName));
