@@ -4,11 +4,25 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+
 //FUNZIONE
 
-function namesWithA(names, letter) {
+// function namesWithA(names, letter) {
+//     const result = [];
+//     for (let i = 0; i < names.length; i++) {
+//         const thisName = names[i]
+//         console.log(names[i])
+//         if (thisName.startsWith("A")) {
+//             result.push(thisName)
+//         }
+//     }
+//     return result
+// }
+
+//ARROW FUNCTION
+const namesWithA = (names, letter) => {
     const result = [];
-    for (i = 0; i < names.length; i++) {
+    for (let i = 0; i < names.length; i++) {
         const thisName = names[i]
         console.log(names[i])
         if (thisName.startsWith("A")) {
